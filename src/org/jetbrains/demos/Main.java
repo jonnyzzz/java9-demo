@@ -11,5 +11,8 @@ public class Main {
 
     final RuntimeMXBean bean = ManagementFactory.getRuntimeMXBean();
     System.out.println("from " + bean.getVmName() + " " + bean.getVmVersion());
+
+    System.out.println();
+    System.out.println("in module: " + Main.class.getModule());
   }
 }
