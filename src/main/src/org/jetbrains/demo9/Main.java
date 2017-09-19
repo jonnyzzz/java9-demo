@@ -18,6 +18,6 @@ public class Main {
     System.out.println();
     System.out.println("in module: " + Main.class.getModule());
 
-    IntelliService.request(Set.of("a", "b", bean.getVmName()));
+    IntelliService.request(Set.of("a", "b", bean.getVmName())).forEach(System.out::println);
   }
 }
