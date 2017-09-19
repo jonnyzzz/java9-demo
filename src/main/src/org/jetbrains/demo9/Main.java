@@ -1,4 +1,4 @@
-package org.jetbrains.demos;
+package org.jetbrains.demo9;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
