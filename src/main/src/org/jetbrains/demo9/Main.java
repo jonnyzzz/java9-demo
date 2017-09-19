@@ -1,6 +1,7 @@
 package org.jetbrains.demo9;
 
 import org.jetbrains.demo9.services.IntelliService;
+import org.junit.Assert;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
@@ -19,5 +20,9 @@ public class Main {
     System.out.println("in module: " + Main.class.getModule());
 
     IntelliService.request(Set.of("a", "b", bean.getVmName())).forEach(System.out::println);
+
+    Assert.assertEquals(42, 42L);
+
+    System.out.println("Assert module " + Assert.class.getModule() );
   }
 }
