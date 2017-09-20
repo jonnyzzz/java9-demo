@@ -15,7 +15,7 @@ public class Main {
     System.out.println("from " + bean.getVmName() + " " + bean.getVmVersion());
 
     System.out.println();
-    System.out.println("in module: " + Main.class.getModule());
+    System.out.println("Main.class in module: " + Main.class.getModule());
 
     IntelliService.request();
   }
