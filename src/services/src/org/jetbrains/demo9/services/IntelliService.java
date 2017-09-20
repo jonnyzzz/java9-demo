@@ -17,8 +17,7 @@ public class IntelliService {
   public static List<String> request(Set<String> keys) {
     System.out.println("IntelliService in module: " + IntelliService.class.getModule());
 
-    return keys.stream().flatMap(key -> {
-      String val = meaningfulData.get(key);
+    return keys.stream().map(meaningfulData::get).flatMap(val -> {
       if (val == null) {
         return Stream.empty();
       } else {
