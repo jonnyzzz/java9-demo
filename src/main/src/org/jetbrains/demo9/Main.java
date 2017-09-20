@@ -22,7 +22,7 @@ public class Main {
 
     IntelliService.request(Set.of("a", "b", bean.getVmName())).forEach(System.out::println);
 
-
+    System.out.println();
     System.out.println(JSON.generateJSON());
   }
 }
