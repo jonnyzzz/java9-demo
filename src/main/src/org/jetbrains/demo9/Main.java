@@ -6,7 +6,6 @@ import org.jetbrains.demo9.services.JSON;
 import java.io.IOException;
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
-import java.util.Set;
 
 public class Main {
   public static void main(String[] args) throws IOException {
@@ -20,7 +19,7 @@ public class Main {
     System.out.println();
     System.out.println("in module: " + Main.class.getModule());
 
-    IntelliService.request(Set.of("a", "b", bean.getVmName())).forEach(System.out::println);
+    IntelliService.request();
 
     System.out.println();
     System.out.println(JSON.generateJSON());
