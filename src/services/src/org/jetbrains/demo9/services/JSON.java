@@ -10,6 +10,7 @@ public class JSON {
   public static String generateJSON() throws IOException {
     final StringWriter text = new StringWriter();
     final JsonGenerator generator = new JsonFactory().createGenerator(text);
+    generator.useDefaultPrettyPrinter();
 
     try (generator; text) {
       generator.writeStartObject();
