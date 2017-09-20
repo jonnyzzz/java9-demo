@@ -14,6 +14,11 @@ public class IntelliService {
     put("Java 9", "Jigsaw");
   }});
 
+  private final Set<String> meaningfulSet = Collections.unmodifiableSet(new HashSet<>(Arrays.asList(
+          "a", "b", "c"
+  )));
+
+
   public static List<String> request(Set<String> keys) {
     System.out.println("IntelliService in module: " + IntelliService.class.getModule());
 
