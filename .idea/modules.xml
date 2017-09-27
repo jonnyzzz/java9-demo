@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/java9-demo.iml" filepath="$PROJECT_DIR$/java9-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/services/services.iml" filepath="$PROJECT_DIR$/src/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/json/json.iml" filepath="$PROJECT_DIR$/src/json/json.iml" />
     </modules>
   </component>
 </project>

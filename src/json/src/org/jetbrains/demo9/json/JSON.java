@@ -1,4 +1,4 @@
-package org.jetbrains.demo9.services;
+package org.jetbrains.demo9.json;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
