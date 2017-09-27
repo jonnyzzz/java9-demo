@@ -7,8 +7,6 @@ public class Helpers {
           = Collections.unmodifiableMap(new HashMap<>() {{
     put("IntelliJ", "IDEA");
     put("San Francisco", "California");
-    put("Java", "One");
-    put("Java 9", "Jigsaw");
   }});
 
   Set<String> meaningfulSet
