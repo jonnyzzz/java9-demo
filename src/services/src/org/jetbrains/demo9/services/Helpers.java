@@ -26,12 +26,4 @@ public class Helpers {
 
 
 
-
-  public static final Map<String, String> newMeaningfulData =
-          Map.ofEntries(
-                  Map.entry("IntelliJ", "IDEA"),
-                  Map.entry("San Francisco", "California"),
-                  Map.entry("Java", "One"),
-                  Map.entry("Java 9", "Jigsaw")
-          );
 }
