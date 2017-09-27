@@ -19,7 +19,7 @@ public class Main {
     System.out.println();
     System.out.println("Main.class module: " + Main.class.getModule());
 
-    IntelliService.request();
+    IntelliService.killMe();
 
     System.out.println();
     System.out.println(JSON.generateJSON());
