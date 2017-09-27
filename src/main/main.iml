@@ -8,8 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="services" />
-    <orderEntry type="module" module-name="json" />
-    <orderEntry type="library" name="junit-4.12" level="project" />
+    <orderEntry type="module" module-name="services-json" />
     <orderEntry type="library" name="jackson-2.9.0" level="project" />
+    <orderEntry type="library" name="junit-4.12" level="project" />
   </component>
 </module>
