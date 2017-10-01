@@ -1,5 +1,9 @@
-module java9_demo {
+
+
+module org.openjdk.demo {
   requires java.management;
-  requires java9_services;
-  requires java9_json;
+
+
+  requires org.openjdk.demo.services;
+  requires org.openjdk.demo.json;
 }

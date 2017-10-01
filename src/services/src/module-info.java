@@ -1,4 +1,4 @@
-module java9_services {
+module org.openjdk.demo.services {
   requires static java.sql;
   requires transitive java.logging;
 
